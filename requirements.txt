@@ -1,0 +1,35 @@
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+aiofiles==24.1.0
+jinja2==3.1.4
+
+# Machine Learning and AI
+git+https://github.com/openai/whisper.git
+torch==2.8.0
+torchaudio==2.8.0
+pyannote.audio==3.3.2
+transformers==4.45.1
+sentence-transformers==3.2.1
+scikit-learn==1.5.2
+spacy==3.7.5
+
+# Audio Processing
+librosa==0.10.2.post1
+soundfile==0.12.1
+
+# Text Processing and NLP
+dateparser==1.2.1
+numpy==2.1.1
+pandas==2.2.3
+
+# PDF Generation
+reportlab==4.2.5
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Additional utilities
+requests==2.32.3
+tqdm==4.66.5

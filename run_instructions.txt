@@ -1,0 +1,30 @@
+# Smart Meeting Minutes Generator - Local Setup Instructions
+
+## Prerequisites
+
+1. Python 3.8 or higher
+2. Git (for cloning if needed)
+3. At least 4GB RAM (8GB recommended for better performance)
+4. 2GB free disk space
+
+## Required API Keys and Environment Variables
+
+Before running the application, you need to set up the following environment variables:
+
+### Required (for speaker diarization):
+- HUGGINGFACE_TOKEN: Get from https://huggingface.co/settings/tokens
+  - Required for pyannote.audio speaker diarization
+  - Sign up at HuggingFace and create a token with read access
+
+### Optional (for enhanced features):
+- OPENAI_API_KEY: For potential future OpenAI integrations
+- ANTHROPIC_API_KEY: For potential future Claude integrations
+
+## Installation Steps
+
+### 1. Clone or Extract the Project
+```bash
+# If you have the project as a ZIP file, extract it
+# If cloning from git:
+git clone <repository-url>
+cd mom-generator
